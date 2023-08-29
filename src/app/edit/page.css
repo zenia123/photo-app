@@ -1,4 +1,9 @@
 .blurred-image {
-    filter: blur(10px); /* Adjust the blur radius as needed */
-  }
-  
+    filter: blur(10px);
+    /* Adjust the blur radius as needed */
+}
+
+.grayscale-image {
+    filter: grayscale(100%);
+    /* Apply full grayscale effect */
+}
