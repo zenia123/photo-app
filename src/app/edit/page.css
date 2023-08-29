@@ -1,0 +1,4 @@
+.blurred-image {
+    filter: blur(10px); /* Adjust the blur radius as needed */
+  }
+  

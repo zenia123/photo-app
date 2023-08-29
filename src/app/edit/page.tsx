@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { CldImage } from "next-cloudinary";
 import { useState } from "react";
+import '@/app/edit/page.css';
 
 export default function EditPage({
   searchParams: { publicId },
@@ -87,7 +88,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              blur="800"
+              className="blurred-image"
               alt="some image"
             />
           )}
