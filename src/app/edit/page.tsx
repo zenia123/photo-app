@@ -108,7 +108,7 @@ export default function EditPage({
               src={publicId}
               width="1200"
               height="1400"
-              pixelate
+              className="pixelated-imag"
               alt="some image"
             />
           )}

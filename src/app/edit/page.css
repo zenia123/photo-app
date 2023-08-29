@@ -7,3 +7,6 @@
     filter: grayscale(100%);
     /* Apply full grayscale effect */
 }
+.pixelated-image {
+    image-rendering: pixelated;
+  }
